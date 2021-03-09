@@ -1,0 +1,144 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	background-image: url("image/background.jpg"); 
+	background-size: cover; 
+	Background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	border-style: groove;
+}
+
+.center {
+    width: 600px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: gold; /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: blue;
+	border-style: groove blue;
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	width: 450px;
+	border: 3px solid darkblue;
+	text-align: center;
+
+}
+
+h1 {
+	
+	font-family: 'Akaya Telivigala', cursive;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color:blue;
+}
+
+h2 {
+	 
+	 font-family: 'Akaya Telivigala', cursive;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color:blue;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	
+	font-family: 'Akaya Telivigala', cursive;	
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: blue;
+	border: 2px solid red;
+	border radius: 5px;
+}
+nav{
+	font-family: 'Oi', cursive;
+	font-size: 1.3em;
+	width: 600px;
+	margin: 0 auto; 
+	border: darkblue;
+	border-width: 4px;
+	border-style: groove;
+	text-align: center;
+	margin-top: 4em;
+	text-decoration: underline;
+	background: yellowgreen
+}
+    nav li{
+display: inline;
+	}
+nav a{
+	display: outline-block;
+	padding: 10px
+}
+a{
+	text-decoration: underline;
+	font-weight: lighter;
+}
+a:hover{
+	color: yellow;
+	background: turquoise;
+}
